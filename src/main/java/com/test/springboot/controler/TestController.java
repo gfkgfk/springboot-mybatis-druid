@@ -16,16 +16,22 @@ public class TestController {
     @Autowired
     TestPropertiesConfigBean testPropertiesConfigBean;
 
-    @RequestMapping("/test")
-    String test() {
-        System.out.println("test方法");
-        return testProperties.getName() + "-----------------" + testProperties.getTitle();
+    @RequestMapping(value = "/getstr", method = RequestMethod.GET)
+    private String getstr() {
+        System.out.println("getstr:");
+        return "getstr";
     }
 
-    @RequestMapping("/test2")
+    @RequestMapping("/test")
+    private String test() {
+        System.out.println("test方法");
+        return this.testProperties.getName() + "-----------------" + this.testProperties.getTitle();
+    }
+
+    @RequestMapping(value = "/test2",method = RequestMethod.GET)
     String test2() {
         System.out.println("test2方法");
-        return testPropertiesConfigBean.getMessage1() + "-------------" + testPropertiesConfigBean.getMessage2();
+        return this.testPropertiesConfigBean.getMessage1() + "-------------" + this.testPropertiesConfigBean.getMessage2();
     }
 
 
