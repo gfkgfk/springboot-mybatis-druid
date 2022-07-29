@@ -18,17 +18,17 @@ public class MultiDataSourceController {
     @Autowired
     SecondCityService secondCityService;
 
-    @RequestMapping(value = "/getfirststudent",method = RequestMethod.POST)
+    @RequestMapping(value = "/getfirststudent", method = RequestMethod.POST)
     Student getFirstStudent(String id) {
         System.out.println("获取学生信息---First数据库");
-        DynamicDataSourceContextHolder.setDataSourceKey("first");
+        // DynamicDataSourceContextHolder.setDataSourceKey("first");  //用了注解切换，暂时注释掉这里
         return firstStudentService.getFirstStudentById(id);
     }
 
     @RequestMapping(value = "/secgetcity", method = RequestMethod.POST)
     City getCity(String id) {
         System.out.println("获取城市信息---Second数据库");
-        DynamicDataSourceContextHolder.setDataSourceKey("second");
+        // DynamicDataSourceContextHolder.setDataSourceKey("second");
         return this.secondCityService.getCityById(id);
     }
 
