@@ -12,7 +12,7 @@ public class FirstStudentServiceImp implements FirstStudentService {
     FirstStudentMapper firstStudentMapper;
 
     @Override
-    @DataSource("second")
+    @DataSource("first")
     public Student getFirstStudentById(String id) {
         return this.firstStudentMapper.getFirstStudentById(id);
     }

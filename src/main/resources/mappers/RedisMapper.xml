@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.test.springboot.mapper.redis.RedisMapper">
+    <select id="getRedis" resultType="com.test.springboot.bean.RedisBean">
+        SELECT *
+        FROM `redis`
+        where id = #{id};
+    </select>
+    <update id="updateRedis" >
+        UPDATE `redis`
+        SET `name`=#{name},
+            `age`=#{age},
+            `sex`=#{sex}
+        WHERE `id` = #{id}
+    </update>
+    <delete id="deleteRedis">
+        DELETE
+        FROM `redis`
+        WHERE `id` = #{id}
+    </delete>
+</mapper>
