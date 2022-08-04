@@ -5,6 +5,8 @@ import com.test.springboot.datasource.DataSource;
 import com.test.springboot.mapper.first.FirstStudentMapper;
 import com.test.springboot.mapper.redis.RedisMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service("redisService")
@@ -19,13 +21,19 @@ public class RedisServiceImp implements RedisService {
 
     @Override
     @DataSource("first")
+    @Cacheable(value = "test",key = "#id") //cache注解写在service层
     public RedisBean getRedis(String id) {
         return this.redisMapper.getRedis(id);
     }
+
+
+
     @DataSource("first")
     @Override
-    public int updateRedis(RedisBean redisBean) {
-        return this.redisMapper.updateRedis(redisBean);
+    @CachePut(value = "test",key = "#p0.id")
+    public RedisBean updateRedis(RedisBean redisBean) {
+        this.redisMapper.updateRedis(redisBean);
+        return this.redisMapper.getRedis(String.valueOf(redisBean.getId()));
     }
 
 
