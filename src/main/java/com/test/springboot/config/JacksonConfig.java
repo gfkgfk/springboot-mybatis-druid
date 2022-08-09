@@ -1,4 +1,4 @@
-package com.test.springboot.datasource;
+package com.test.springboot.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;

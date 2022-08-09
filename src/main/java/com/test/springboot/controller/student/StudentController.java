@@ -1,4 +1,4 @@
-package com.test.springboot.controler.student;
+package com.test.springboot.controller.student;
 
 import com.test.springboot.bean.Student;
 import com.test.springboot.service.student.StudentService;

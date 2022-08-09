@@ -1,4 +1,4 @@
-package com.test.springboot.controler.json;
+package com.test.springboot.controller.json;
 
 import com.fasterxml.jackson.annotation.JsonView;
 import com.fasterxml.jackson.databind.JsonNode;

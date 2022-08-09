@@ -1,8 +1,7 @@
-package com.test.springboot.controler.first;
+package com.test.springboot.controller.first;
 
 import com.test.springboot.bean.City;
 import com.test.springboot.bean.Student;
-import com.test.springboot.datasource.DynamicDataSourceContextHolder;
 import com.test.springboot.service.first.FirstStudentService;
 import com.test.springboot.service.second.SecondCityService;
 import org.springframework.beans.factory.annotation.Autowired;

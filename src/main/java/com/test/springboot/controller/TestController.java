@@ -1,9 +1,7 @@
-package com.test.springboot.controler;
+package com.test.springboot.controller;
 
-import com.test.springboot.bean.Student;
 import com.test.springboot.bean.TestProperties;
 import com.test.springboot.bean.TestPropertiesConfigBean;
-import com.test.springboot.service.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

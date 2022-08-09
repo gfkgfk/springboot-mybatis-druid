@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AopAdvice {
 
-    @Pointcut("execution (* com.test.springboot.controler.aop.*.*(..))")
+    @Pointcut("execution (* com.test.springboot.controller.aop.*.*(..))")
     public void test() {
 
     }
