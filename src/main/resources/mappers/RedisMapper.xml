@@ -18,4 +18,11 @@
         FROM `redis`
         WHERE `id` = #{id}
     </delete>
+
+
+    <insert id="addRedis">
+        INSERT INTO `redis`
+            (`id`, `name`, `age`, `sex`)
+        VALUES (#{id}, #{name}, #{age}, #{sex});
+    </insert>
 </mapper>

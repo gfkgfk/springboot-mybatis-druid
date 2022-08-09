@@ -11,6 +11,8 @@ public interface RedisMapper {
 
     RedisBean getRedis(@Param("id") String id);
 
+    int addRedis(RedisBean redisBean);
+
     int updateRedis(RedisBean id);
 
     int deleteRedis(@Param("id") String id);

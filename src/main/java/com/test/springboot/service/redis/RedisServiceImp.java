@@ -21,16 +21,23 @@ public class RedisServiceImp implements RedisService {
 
     @Override
     @DataSource("first")
-    @Cacheable(value = "test",key = "#id") //cache注解写在service层
+    @CachePut(value = "test", keyGenerator = "myKeyGenerator") //keyGenerator指定缓存key的生成策略
+    public RedisBean addRedis(RedisBean redisBean) {
+        int id = this.redisMapper.addRedis(redisBean);
+        return this.redisMapper.getRedis(String.valueOf(redisBean.getId()));
+    }
+
+    @Override
+    @DataSource("first")
+    @Cacheable(value = "test", key = "#id") //cache注解写在service层
     public RedisBean getRedis(String id) {
         return this.redisMapper.getRedis(id);
     }
 
 
-
     @DataSource("first")
     @Override
-    @CachePut(value = "test",key = "#p0.id")
+    @CachePut(value = "test", key = "#p0.id")
     public RedisBean updateRedis(RedisBean redisBean) {
         this.redisMapper.updateRedis(redisBean);
         return this.redisMapper.getRedis(String.valueOf(redisBean.getId()));

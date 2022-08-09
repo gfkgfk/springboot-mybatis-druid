@@ -17,6 +17,17 @@ public class RedisController {
     RedisService redisService;
 
 
+    @RequestMapping(value = "/addredis",method = RequestMethod.POST)
+    public RedisBean addRedis(String id, String age, String sex, String name) {
+        RedisBean redisBean = new RedisBean();
+        redisBean.setId(Integer.valueOf(id));
+        redisBean.setAge(Integer.valueOf(age));
+        redisBean.setSex(sex);
+        redisBean.setName(name);
+
+        return this.redisService.addRedis(redisBean);
+    }
+
     @RequestMapping(value = "/getredis",method = RequestMethod.POST)
     public RedisBean getRedis(String id){
         System.out.println("getRedis");
@@ -24,7 +35,6 @@ public class RedisController {
     }
 
     @RequestMapping(value = "/updateredis", method = RequestMethod.POST)
-//    @CachePut()
     RedisBean updateRedis(String id){
         System.out.println("updateredis");
         RedisBean redisBean = new RedisBean();
