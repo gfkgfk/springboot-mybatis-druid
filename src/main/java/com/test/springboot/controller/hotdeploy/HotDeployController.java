@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HotDeployController {
     @RequestMapping(value = "hot",method = RequestMethod.POST)
     public String getHotDeployStr(){
+        System.out.println("double----");
         return "double";
 
     }

@@ -153,6 +153,12 @@
 <!--            <artifactId>spring-boot-devtools</artifactId>-->
 <!--            <optional>true</optional>-->
 <!--        </dependency>-->
+
+        <!-- logback -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
