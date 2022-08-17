@@ -1,0 +1,155 @@
+2022-08-16 10:17:53.367 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 588 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 10:17:53.383 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-16 10:17:54.589 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-16 10:17:54.589 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-16 10:17:54.620 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-08-16 10:17:55.272 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-16 10:17:55.288 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-16 10:17:55.289 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-16 10:17:55.290 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-16 10:17:55.358 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-16 10:17:55.358 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1949 ms
+2022-08-16 10:17:56.742 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-16 10:17:56.820 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-16 10:17:57.360 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-16 10:17:57.388 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-16 10:17:57.389 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-16 10:17:57.404 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-16 10:17:57.441 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-16 10:17:57.578 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-16 10:17:57.578 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-16 10:17:57.594 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-16 10:17:57.609 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-16 10:17:57.625 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-16 10:17:57.659 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.768 seconds (JVM running for 6.819)
+2022-08-16 10:17:57.957 [RMI TCP Connection(3)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-16 10:17:57.957 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-16 10:17:57.957 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-16 10:17:57.989 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-16 10:17:58.522 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-16 14:50:45.516 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 1272 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 14:50:45.519 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 14:50:45.586 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.497 seconds (JVM running for 0.932)
+2022-08-16 15:04:46.030 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 22972 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:04:46.033 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:04:46.116 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.653 seconds (JVM running for 1.794)
+2022-08-16 15:05:00.192 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 21548 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:05:00.196 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:05:00.286 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.507 seconds (JVM running for 0.937)
+2022-08-16 15:07:58.097 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 21708 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:07:58.099 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:07:58.186 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.669 seconds (JVM running for 1.176)
+2022-08-16 15:08:04.533 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 18288 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:08:04.536 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:08:04.608 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.52 seconds (JVM running for 0.917)
+2022-08-16 15:08:27.072 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 9352 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:08:27.075 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:08:27.179 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.542 seconds (JVM running for 0.933)
+2022-08-16 15:08:48.598 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 23032 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:08:48.600 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:08:48.677 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.499 seconds (JVM running for 0.881)
+2022-08-16 15:08:52.562 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 26268 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:08:52.564 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:08:52.639 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.479 seconds (JVM running for 0.866)
+2022-08-16 15:16:10.345 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 17192 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:16:10.347 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:16:10.503 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.586 seconds (JVM running for 0.99)
+2022-08-16 15:16:26.050 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 268 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:16:26.052 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:16:26.128 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.526 seconds (JVM running for 0.901)
+2022-08-16 15:16:31.367 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 2452 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:16:31.370 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:16:31.448 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.508 seconds (JVM running for 0.901)
+2022-08-16 15:17:49.644 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 2584 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:17:49.648 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:17:49.827 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.794 seconds (JVM running for 1.339)
+2022-08-16 15:17:57.721 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 26076 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:17:57.724 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:17:57.850 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.536 seconds (JVM running for 0.935)
+2022-08-16 15:18:03.488 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 18440 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 15:18:03.491 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 15:18:03.629 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.577 seconds (JVM running for 0.972)
+2022-08-16 16:09:07.858 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 9116 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:09:07.862 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 16:09:08.001 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.587 seconds (JVM running for 0.975)
+2022-08-16 16:09:14.071 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 26496 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:09:14.074 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 16:09:14.221 [main] [INFO ] com.test.springboot.ServiceBootStrap - Started ServiceBootStrap in 0.584 seconds (JVM running for 0.972)
+2022-08-16 16:52:42.313 [main] [INFO ] com.test.springboot.ServiceBootStrap - Starting ServiceBootStrap using Java 1.8.0_291 on gaofengkai with PID 21680 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:52:42.317 [main] [INFO ] com.test.springboot.ServiceBootStrap - The following profiles are active: prod
+2022-08-16 16:52:49.467 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 18904 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:52:49.470 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 16:52:49.539 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.486 seconds (JVM running for 0.892)
+2022-08-16 16:53:34.983 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 17348 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:53:34.985 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 16:53:35.059 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.515 seconds (JVM running for 0.911)
+2022-08-16 16:53:40.888 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 19256 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:53:40.891 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 16:53:40.974 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.573 seconds (JVM running for 1.335)
+2022-08-16 16:54:03.158 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 2872 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:54:03.161 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 16:54:03.372 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.652 seconds (JVM running for 1.033)
+2022-08-16 16:54:26.167 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 10940 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 16:54:26.170 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 16:54:26.357 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.633 seconds (JVM running for 1.031)
+2022-08-16 17:14:01.142 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 22264 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 17:14:01.145 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 17:14:01.214 [main] [INFO ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: public static java.lang.String com.test.springboot.EnableAnnotationTestBootstrap.test
+2022-08-16 17:14:01.224 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.528 seconds (JVM running for 0.907)
+2022-08-16 17:21:37.629 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 24372 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 17:21:37.632 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 17:21:37.813 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.596 seconds (JVM running for 0.999)
+2022-08-16 17:31:53.043 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 18248 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 17:31:53.059 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 17:31:53.276 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.667 seconds (JVM running for 1.041)
+2022-08-16 17:31:58.826 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 23956 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 17:31:58.828 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 17:31:59.008 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.59 seconds (JVM running for 0.968)
+2022-08-16 17:32:08.781 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Starting EnableAnnotationTestBootstrap using Java 1.8.0_291 on gaofengkai with PID 22160 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-16 17:32:08.783 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - The following profiles are active: prod
+2022-08-16 17:32:08.960 [main] [INFO ] com.test.springboot.EnableAnnotationTestBootstrap - Started EnableAnnotationTestBootstrap in 0.609 seconds (JVM running for 0.993)
