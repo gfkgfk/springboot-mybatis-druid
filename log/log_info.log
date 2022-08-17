@@ -156,3 +156,38 @@
 2022-08-17 17:23:56.969 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-08-17 17:23:57.019 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
 2022-08-17 17:23:57.201 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-08-17 17:32:30.059 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 15948 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-17 17:32:30.061 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-17 17:32:30.498 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 17:32:30.500 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 17:32:30.551 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
+2022-08-17 17:32:30.732 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-08-17 17:34:14.549 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 15656 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-17 17:34:14.551 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-17 17:34:15.005 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 17:34:15.006 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 17:34:15.060 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2022-08-17 17:34:15.271 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-08-17 17:40:12.505 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 10556 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-17 17:40:12.507 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-17 17:40:12.931 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 17:40:12.933 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 17:40:12.983 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 0 Redis repository interfaces.
+2022-08-17 17:41:10.494 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 18332 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-17 17:41:10.497 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-17 17:41:10.882 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 17:41:10.884 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 17:41:10.936 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 0 Redis repository interfaces.
+2022-08-17 17:41:11.444 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Started AnnotationConfigTest in 1.259 seconds (JVM running for 1.731)
+2022-08-17 17:41:25.621 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 22736 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-17 17:41:25.623 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-17 17:41:26.033 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 17:41:26.035 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 17:41:26.083 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 0 Redis repository interfaces.
+2022-08-17 17:41:26.244 [main] [INFO ] c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-08-17 17:41:44.073 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 10612 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-17 17:41:44.075 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-17 17:41:44.494 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-17 17:41:44.495 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-17 17:41:44.550 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 0 Redis repository interfaces.
+2022-08-17 17:41:45.058 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Started AnnotationConfigTest in 1.31 seconds (JVM running for 1.776)
