@@ -16,3 +16,95 @@
 2022-08-18 14:35:37.917 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-08-18 14:35:37.971 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
 2022-08-18 14:35:38.474 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Started AnnotationConfigTest in 1.261 seconds (JVM running for 1.753)
+2022-08-18 15:06:52.998 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 10120 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-18 15:06:53.001 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-18 15:06:53.389 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-18 15:06:53.391 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-18 15:06:53.446 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2022-08-18 15:06:53.932 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Started AnnotationConfigTest in 1.253 seconds (JVM running for 1.772)
+2022-08-18 16:41:02.645 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 17728 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-18 16:41:02.647 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-18 16:41:03.030 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-18 16:41:03.032 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-18 16:41:03.086 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 0 Redis repository interfaces.
+2022-08-18 16:41:03.571 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Started AnnotationConfigTest in 1.24 seconds (JVM running for 1.782)
+2022-08-18 16:41:25.108 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Starting AnnotationConfigTest using Java 1.8.0_291 on gaofengkai with PID 26064 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-18 16:41:25.111 [main] [INFO ] com.test.springboot.AnnotationConfigTest - The following profiles are active: prod
+2022-08-18 16:41:25.488 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-18 16:41:25.490 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-18 16:41:25.543 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 0 Redis repository interfaces.
+2022-08-18 16:41:26.020 [main] [INFO ] com.test.springboot.AnnotationConfigTest - Started AnnotationConfigTest in 1.217 seconds (JVM running for 1.746)
+2022-08-18 16:42:13.240 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 13252 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-18 16:42:13.243 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-18 16:42:14.048 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-18 16:42:14.050 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-18 16:42:14.068 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2022-08-18 16:42:14.603 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-18 16:42:14.608 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-18 16:42:14.608 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-18 16:42:14.608 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-18 16:42:14.675 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-18 16:42:14.675 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1401 ms
+2022-08-18 16:42:15.781 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-18 16:42:15.849 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-18 16:42:16.265 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-18 16:42:16.276 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-18 16:42:16.277 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-18 16:42:16.288 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-18 16:42:16.318 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-18 16:42:16.433 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-18 16:42:16.434 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-18 16:42:16.437 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-18 16:42:16.439 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-18 16:42:16.441 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-18 16:42:16.444 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-18 16:42:16.445 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-18 16:42:16.447 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-18 16:42:16.447 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-18 16:42:16.448 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-18 16:42:16.448 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-18 16:42:16.448 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-18 16:42:16.449 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-18 16:42:16.449 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-18 16:42:16.450 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-18 16:42:16.450 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-18 16:42:16.451 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-18 16:42:16.451 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-18 16:42:16.452 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-18 16:42:16.452 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-18 16:42:16.452 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-18 16:42:16.453 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-18 16:42:16.453 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-18 16:42:16.454 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-18 16:42:16.454 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-18 16:42:16.454 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-18 16:42:16.455 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-18 16:42:16.455 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-18 16:42:16.455 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-18 16:42:16.456 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-18 16:42:16.456 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-18 16:42:16.457 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-18 16:42:16.458 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-18 16:42:16.459 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-18 16:42:16.459 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-18 16:42:16.460 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-18 16:42:16.460 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-18 16:42:16.461 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-18 16:42:16.461 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-18 16:42:16.461 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-18 16:42:16.464 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-18 16:42:16.466 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-18 16:42:16.467 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-18 16:42:16.467 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-18 16:42:16.468 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-18 16:42:16.471 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-18 16:42:16.472 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-18 16:42:16.474 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-18 16:42:16.474 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-18 16:42:16.475 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-18 16:42:16.495 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 3.599 seconds (JVM running for 4.199)
+2022-08-18 16:42:17.116 [RMI TCP Connection(3)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-18 16:42:17.116 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-18 16:42:17.118 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-08-18 16:42:17.137 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-18 16:42:17.459 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited

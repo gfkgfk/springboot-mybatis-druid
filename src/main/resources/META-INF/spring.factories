@@ -14,3 +14,8 @@ org.springframework.context.ApplicationListener=\
 com.test.springboot.listener.ContextClosedEventListener,\
 com.test.springboot.listener.AfterContextClosedEventListener
 
+
+# Spring Run Listeners
+org.springframework.boot.SpringApplicationRunListener=\
+com.test.springboot.listener.SpringRunListener
+
