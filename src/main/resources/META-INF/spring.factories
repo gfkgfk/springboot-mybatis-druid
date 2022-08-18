@@ -1,3 +1,16 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.test.springboot.autoconfig.AutoConfiguration
+
+
+# Application Initializer
+org.springframework.context.ApplicationContextInitializer=\
+com.test.springboot.initializer.ApplicationContextInitializerTest,\
+com.test.springboot.initializer.ApplicationContextInitializerTestLow
+
+
+# Application Listeners
+org.springframework.context.ApplicationListener=\
+com.test.springboot.listener.ContextClosedEventListener,\
+com.test.springboot.listener.AfterContextClosedEventListener
+
