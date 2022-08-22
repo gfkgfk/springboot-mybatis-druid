@@ -21,7 +21,7 @@ public class CrossController {
     }
 
 
-    
+
 
     //此外，也可通过实现WebMvcConfigurer接口来实现、通过过滤器来实现、Actuator来实现。
 }
