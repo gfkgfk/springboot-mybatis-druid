@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
+
 //开启异步需要在入口类上加上@EnableAsync注解
 @RestController
 public class AsyncController {
@@ -24,6 +27,27 @@ public class AsyncController {
         logger.info("异步方法结束");
         long end = System.currentTimeMillis();
         logger.info("总耗时：{} ms", end - start);
+    }
+
+    @GetMapping("async2")
+    public String  testAsync2() {
+        long start = System.currentTimeMillis();
+        logger.info("异步方法开始");
+
+        Future<String> stringFuture =asyncService.asyncMethod2();
+
+        logger.info("异步方法结束");
+        long end = System.currentTimeMillis();
+        logger.info("总耗时：{} ms", end - start+" STRINGFUTURE:"+stringFuture);
+        String result = null;
+        try {
+            result = stringFuture.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
     @GetMapping("sync")

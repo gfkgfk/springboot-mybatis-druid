@@ -2274,3 +2274,451 @@
 2022-08-22 14:10:40.603 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
 2022-08-22 14:10:42.356 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
 2022-08-22 14:10:42.617 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:36:16.772 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-08-22 16:36:16.774 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-08-22 16:36:16.774 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-08-22 16:36:16.775 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-08-22 16:36:20.037 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 2768 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-22 16:36:20.042 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-22 16:36:21.045 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-22 16:36:21.048 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-22 16:36:21.073 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2022-08-22 16:36:21.750 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-22 16:36:21.757 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:36:21.757 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-22 16:36:21.757 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-22 16:36:21.839 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-22 16:36:21.839 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1754 ms
+2022-08-22 16:36:23.267 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-22 16:36:23.361 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 16:36:23.860 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:36:23.873 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-22 16:36:23.874 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-22 16:36:23.887 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-22 16:36:23.924 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:36:24.059 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-22 16:36:24.061 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-22 16:36:24.072 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:36:24.074 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-22 16:36:24.079 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:36:24.080 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-22 16:36:24.082 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-22 16:36:24.086 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:36:24.088 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-22 16:36:24.090 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-22 16:36:24.090 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-22 16:36:24.091 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-22 16:36:24.091 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-22 16:36:24.092 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-22 16:36:24.092 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-22 16:36:24.092 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-22 16:36:24.093 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-22 16:36:24.093 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-22 16:36:24.094 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-22 16:36:24.094 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-22 16:36:24.094 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-22 16:36:24.095 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-22 16:36:24.095 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-22 16:36:24.095 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-22 16:36:24.096 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-22 16:36:24.096 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-22 16:36:24.097 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-22 16:36:24.097 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-22 16:36:24.097 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-22 16:36:24.098 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-22 16:36:24.098 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-22 16:36:24.099 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-22 16:36:24.099 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-22 16:36:24.100 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-22 16:36:24.102 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-22 16:36:24.103 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-22 16:36:24.104 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-22 16:36:24.105 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-22 16:36:24.106 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-22 16:36:24.107 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-22 16:36:24.108 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-22 16:36:24.108 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-22 16:36:24.112 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:36:24.114 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-22 16:36:24.115 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-22 16:36:24.116 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-22 16:36:24.117 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-22 16:36:24.121 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:36:24.122 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-22 16:36:24.124 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-22 16:36:24.125 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-22 16:36:24.126 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-22 16:36:24.145 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.541 seconds (JVM running for 5.459)
+2022-08-22 16:36:24.614 [RMI TCP Connection(2)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 16:36:24.614 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-22 16:36:24.618 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-08-22 16:36:24.638 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-22 16:36:25.103 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-22 16:36:29.402 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:29.404 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:29.404 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：2 ms
+2022-08-22 16:36:29.932 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:29.934 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:29.934 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：2 ms
+2022-08-22 16:36:30.506 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:30.507 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:30.507 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:30.904 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:30.904 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:30.904 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:36:31.407 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:36:31.936 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:36:32.059 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:32.059 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:32.060 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:32.686 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:32.687 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:32.687 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:33.213 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:33.213 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:33.214 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:33.421 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:36:33.613 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:33.613 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:33.613 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:36:33.947 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:36:34.030 [http-nio-8081-exec-10] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:34.030 [http-nio-8081-exec-10] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:34.030 [http-nio-8081-exec-10] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:36:34.392 [http-nio-8081-exec-1] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:34.393 [http-nio-8081-exec-1] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:34.393 [http-nio-8081-exec-1] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:34.768 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:34.768 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:34.769 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:35.309 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:36:35.309 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:36:35.310 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:36:35.424 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:36:35.947 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:36:37.430 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:36:37.952 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:36:39.444 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:36:39.954 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:36:41.446 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:36:41.957 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:37:37.713 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-08-22 16:37:37.716 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-08-22 16:37:37.716 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-08-22 16:37:37.717 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-08-22 16:37:41.546 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 20664 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-22 16:37:41.548 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-22 16:37:42.508 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-22 16:37:42.511 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-22 16:37:42.534 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-08-22 16:37:43.296 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-22 16:37:43.302 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:37:43.303 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-22 16:37:43.303 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-22 16:37:43.386 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-22 16:37:43.387 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1804 ms
+2022-08-22 16:37:44.883 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-22 16:37:44.968 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 16:37:45.478 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:37:45.490 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-22 16:37:45.491 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-22 16:37:45.504 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-22 16:37:45.541 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:37:45.686 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-22 16:37:45.688 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-22 16:37:45.699 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:37:45.700 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-22 16:37:45.704 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:37:45.706 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-22 16:37:45.707 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-22 16:37:45.711 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:37:45.713 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-22 16:37:45.714 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-22 16:37:45.714 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-22 16:37:45.715 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-22 16:37:45.715 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-22 16:37:45.716 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-22 16:37:45.716 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-22 16:37:45.716 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-22 16:37:45.717 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-22 16:37:45.717 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-22 16:37:45.718 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-22 16:37:45.718 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-22 16:37:45.718 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-22 16:37:45.719 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-22 16:37:45.719 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-22 16:37:45.719 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-22 16:37:45.720 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-22 16:37:45.720 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-22 16:37:45.721 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-22 16:37:45.721 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-22 16:37:45.721 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-22 16:37:45.722 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-22 16:37:45.722 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-22 16:37:45.723 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-22 16:37:45.723 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-22 16:37:45.724 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-22 16:37:45.725 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-22 16:37:45.726 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-22 16:37:45.726 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-22 16:37:45.727 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-22 16:37:45.727 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-22 16:37:45.727 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-22 16:37:45.728 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-22 16:37:45.728 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-22 16:37:45.732 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:37:45.734 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-22 16:37:45.735 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-22 16:37:45.736 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-22 16:37:45.736 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-22 16:37:45.739 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:37:45.740 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-22 16:37:45.742 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-22 16:37:45.742 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-22 16:37:45.743 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-22 16:37:45.762 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.65 seconds (JVM running for 5.377)
+2022-08-22 16:37:46.322 [RMI TCP Connection(2)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 16:37:46.322 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-22 16:37:46.325 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-08-22 16:37:46.333 [RMI TCP Connection(3)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-22 16:37:46.831 [RMI TCP Connection(3)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-22 16:37:51.636 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:51.638 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:51.639 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：3 ms
+2022-08-22 16:37:52.149 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:52.150 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:52.150 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:37:52.682 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:52.682 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:52.682 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:37:53.171 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:53.171 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:53.171 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:37:53.610 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:53.610 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:53.611 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:37:53.649 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:37:54.028 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:54.028 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:54.028 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:37:54.161 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:37:54.463 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:54.463 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:54.463 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:37:54.898 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:54.898 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:54.898 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:37:55.296 [http-nio-8081-exec-10] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:55.296 [http-nio-8081-exec-10] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:55.297 [http-nio-8081-exec-10] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:37:55.663 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:37:55.811 [http-nio-8081-exec-1] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:37:55.812 [http-nio-8081-exec-1] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:37:55.812 [http-nio-8081-exec-1] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:37:56.171 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:37:57.673 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:37:58.183 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:37:59.688 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:38:00.198 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:38:01.697 [asyncThread1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread1
+2022-08-22 16:38:02.204 [asyncThread2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread2
+2022-08-22 16:38:18.529 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-08-22 16:38:18.533 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-08-22 16:38:18.533 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-08-22 16:38:18.533 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-08-22 16:38:22.492 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 10588 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-22 16:38:22.495 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-22 16:38:23.815 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-22 16:38:23.816 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-22 16:38:23.851 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2022-08-22 16:38:24.628 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-22 16:38:24.634 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:38:24.635 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-22 16:38:24.635 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-22 16:38:24.731 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-22 16:38:24.731 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2196 ms
+2022-08-22 16:38:26.269 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-22 16:38:26.382 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 16:38:26.896 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:38:26.908 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-22 16:38:26.909 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-22 16:38:26.922 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-22 16:38:26.957 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:38:27.094 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-22 16:38:27.097 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-22 16:38:27.110 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:38:27.112 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-22 16:38:27.116 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:38:27.118 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-22 16:38:27.119 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-22 16:38:27.123 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:38:27.125 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-22 16:38:27.127 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-22 16:38:27.127 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-22 16:38:27.128 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-22 16:38:27.128 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-22 16:38:27.128 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-22 16:38:27.129 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-22 16:38:27.129 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-22 16:38:27.130 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-22 16:38:27.130 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-22 16:38:27.131 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-22 16:38:27.131 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-22 16:38:27.131 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-22 16:38:27.132 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-22 16:38:27.132 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-22 16:38:27.132 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-22 16:38:27.133 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-22 16:38:27.133 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-22 16:38:27.133 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-22 16:38:27.134 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-22 16:38:27.134 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-22 16:38:27.134 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-22 16:38:27.135 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-22 16:38:27.136 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-22 16:38:27.136 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-22 16:38:27.137 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-22 16:38:27.141 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-22 16:38:27.142 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-22 16:38:27.143 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-22 16:38:27.144 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-22 16:38:27.144 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-22 16:38:27.145 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-22 16:38:27.147 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-22 16:38:27.147 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-22 16:38:27.151 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:38:27.153 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-22 16:38:27.154 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-22 16:38:27.155 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-22 16:38:27.156 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-22 16:38:27.160 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:38:27.161 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-22 16:38:27.162 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-22 16:38:27.163 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-22 16:38:27.164 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-22 16:38:27.184 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 5.142 seconds (JVM running for 5.923)
+2022-08-22 16:38:27.625 [RMI TCP Connection(1)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 16:38:27.626 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-22 16:38:27.629 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-08-22 16:38:27.646 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-22 16:38:28.105 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-22 16:38:31.352 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:31.354 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:31.354 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：2 ms
+2022-08-22 16:38:31.846 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:31.846 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:31.846 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:38:32.298 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:32.298 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:32.298 [http-nio-8081-exec-4] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:38:32.736 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:32.736 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:32.736 [http-nio-8081-exec-5] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:38:33.086 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:33.087 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:33.087 [http-nio-8081-exec-6] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 ms
+2022-08-22 16:38:33.373 [asyncThread----*----1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----1
+2022-08-22 16:38:33.650 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:33.651 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:33.652 [http-nio-8081-exec-7] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：2 ms
+2022-08-22 16:38:33.855 [asyncThread----*----2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----2
+2022-08-22 16:38:34.215 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:34.215 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:34.215 [http-nio-8081-exec-8] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:38:34.587 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:38:34.587 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:38:34.587 [http-nio-8081-exec-9] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：0 ms
+2022-08-22 16:38:35.380 [asyncThread----*----1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----1
+2022-08-22 16:38:35.859 [asyncThread----*----2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----2
+2022-08-22 16:38:37.394 [asyncThread----*----1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----1
+2022-08-22 16:38:37.871 [asyncThread----*----2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----2
+2022-08-22 16:38:39.395 [asyncThread----*----1] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----1
+2022-08-22 16:38:39.882 [asyncThread----*----2] [INFO ] com.test.springboot.service.async.AsyncService - 异步方法内部线程名称：asyncThread----*----2
+2022-08-22 16:46:41.403 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2022-08-22 16:46:41.412 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2022-08-22 16:46:41.413 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2022-08-22 16:46:41.414 [SpringApplicationShutdownHook] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2022-08-22 16:46:44.692 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 19304 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-22 16:46:44.696 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-22 16:46:45.652 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-22 16:46:45.654 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-22 16:46:45.682 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-08-22 16:46:46.477 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-22 16:46:46.484 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:46:46.485 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-22 16:46:46.485 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-22 16:46:46.587 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-22 16:46:46.588 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1854 ms
+2022-08-22 16:46:48.204 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-22 16:46:48.291 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 16:46:48.786 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-22 16:46:48.798 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-22 16:46:48.799 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-22 16:46:48.815 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-22 16:46:48.847 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:46:48.985 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-22 16:46:48.988 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-22 16:46:49.002 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:46:49.003 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-22 16:46:49.007 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:46:49.009 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-22 16:46:49.011 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-22 16:46:49.014 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:46:49.016 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-22 16:46:49.017 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-22 16:46:49.017 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-22 16:46:49.018 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-22 16:46:49.018 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-22 16:46:49.019 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-22 16:46:49.019 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-22 16:46:49.019 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-22 16:46:49.020 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-22 16:46:49.020 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-22 16:46:49.021 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-22 16:46:49.021 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-22 16:46:49.021 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-22 16:46:49.022 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-22 16:46:49.022 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-22 16:46:49.022 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-22 16:46:49.023 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-22 16:46:49.023 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-22 16:46:49.024 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-22 16:46:49.024 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-22 16:46:49.024 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-22 16:46:49.025 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-22 16:46:49.025 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-22 16:46:49.025 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-22 16:46:49.026 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-22 16:46:49.027 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-22 16:46:49.029 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-22 16:46:49.030 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-22 16:46:49.030 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-22 16:46:49.031 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-22 16:46:49.032 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-22 16:46:49.032 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-22 16:46:49.033 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-22 16:46:49.034 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-22 16:46:49.037 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:46:49.039 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-22 16:46:49.040 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-22 16:46:49.041 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-22 16:46:49.041 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-22 16:46:49.045 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-22 16:46:49.046 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-22 16:46:49.047 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-22 16:46:49.048 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-22 16:46:49.048 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-22 16:46:49.070 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.855 seconds (JVM running for 5.662)
+2022-08-22 16:46:49.489 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-22 16:46:49.732 [RMI TCP Connection(3)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 16:46:49.732 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-22 16:46:49.735 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-08-22 16:46:49.984 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-22 16:46:54.331 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:46:54.333 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:46:54.333 [http-nio-8081-exec-2] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：2 STRINGFUTURE:java.util.concurrent.FutureTask@33d64220 ms
+2022-08-22 16:46:56.336 [asyncThread----*----1] [INFO ] com.test.springboot.service.async.AsyncService - AsyncMethod2 异步方法内部线程名称：asyncThread----*----1
+2022-08-22 16:47:12.730 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法开始
+2022-08-22 16:47:12.731 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 异步方法结束
+2022-08-22 16:47:12.731 [http-nio-8081-exec-3] [INFO ] c.test.springboot.controller.async.AsyncController - 总耗时：1 STRINGFUTURE:java.util.concurrent.FutureTask@b59e0ff ms
+2022-08-22 16:47:14.732 [asyncThread----*----2] [INFO ] com.test.springboot.service.async.AsyncService - AsyncMethod2 异步方法内部线程名称：asyncThread----*----2
