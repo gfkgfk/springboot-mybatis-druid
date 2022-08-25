@@ -1,0 +1,729 @@
+2022-08-24 08:39:33.654 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 11372 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-24 08:39:33.666 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-24 08:39:34.973 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-24 08:39:34.976 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-24 08:39:35.005 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2022-08-24 08:39:35.671 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-24 08:39:35.677 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-24 08:39:35.678 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24 08:39:35.678 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-24 08:39:35.764 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-24 08:39:35.765 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2056 ms
+2022-08-24 08:39:37.191 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-24 08:39:37.271 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-24 08:39:37.731 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-24 08:39:37.742 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-24 08:39:37.742 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-24 08:39:37.754 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-24 08:39:37.786 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 08:39:37.896 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-24 08:39:37.898 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-24 08:39:37.907 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 08:39:37.908 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-24 08:39:37.911 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 08:39:37.912 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-24 08:39:37.913 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-24 08:39:37.916 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 08:39:37.917 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-24 08:39:37.919 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-24 08:39:37.919 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-24 08:39:37.919 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-24 08:39:37.920 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-24 08:39:37.920 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-24 08:39:37.921 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-24 08:39:37.921 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-24 08:39:37.921 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-24 08:39:37.922 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-24 08:39:37.922 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-24 08:39:37.923 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-24 08:39:37.923 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-24 08:39:37.923 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-24 08:39:37.924 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-24 08:39:37.924 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-24 08:39:37.924 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-24 08:39:37.925 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-24 08:39:37.925 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-24 08:39:37.926 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-24 08:39:37.926 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-24 08:39:37.926 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-24 08:39:37.927 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-24 08:39:37.927 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-24 08:39:37.927 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-24 08:39:37.928 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-24 08:39:37.929 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-24 08:39:37.930 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-24 08:39:37.930 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-24 08:39:37.931 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-24 08:39:37.931 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-24 08:39:37.932 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-24 08:39:37.932 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-24 08:39:37.932 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-24 08:39:37.935 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 08:39:37.937 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-24 08:39:37.938 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-24 08:39:37.938 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-24 08:39:37.939 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-24 08:39:37.942 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 08:39:37.943 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-24 08:39:37.944 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-24 08:39:37.944 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-24 08:39:37.945 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-24 08:39:37.987 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.748 seconds (JVM running for 5.56)
+2022-08-24 08:39:38.239 [RMI TCP Connection(1)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-24 08:39:38.239 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-24 08:39:38.242 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-08-24 08:39:38.465 [RMI TCP Connection(3)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-24 08:39:38.990 [RMI TCP Connection(3)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-24 08:39:46.275 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [110.40.220.207:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-24 08:39:46.318 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.2
+2022-08-24 08:39:46.318 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 37a1cc36bf4d76f3
+2022-08-24 08:39:46.318 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1661301586316
+2022-08-24 08:48:52.135 [kafka-producer-network-thread | producer-1] [INFO ] org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: N_qWYp0DR-CyFe0Vu-kqrw
+2022-08-24 09:42:16.638 [lettuce-nioEventLoop-4-1] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 09:42:19.285 [lettuce-eventExecutorLoop-1-3] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 09:42:19.380 [lettuce-nioEventLoop-4-2] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 09:43:06.547 [lettuce-nioEventLoop-4-2] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 09:43:06.583 [lettuce-eventExecutorLoop-1-4] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 09:43:06.627 [lettuce-nioEventLoop-4-3] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 10:03:57.544 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 24984 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-24 10:03:57.547 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-24 10:03:58.332 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-24 10:03:58.333 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-24 10:03:58.356 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-08-24 10:03:58.905 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-24 10:03:58.911 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-24 10:03:58.912 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-24 10:03:58.912 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-24 10:03:58.985 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-24 10:03:58.985 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1406 ms
+2022-08-24 10:04:00.282 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-24 10:04:00.364 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-24 10:04:00.843 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-24 10:04:00.855 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-24 10:04:00.856 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-24 10:04:00.867 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-24 10:04:00.894 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 10:04:01.004 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-24 10:04:01.006 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-24 10:04:01.015 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 10:04:01.016 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-24 10:04:01.019 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 10:04:01.021 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-24 10:04:01.022 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-24 10:04:01.024 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 10:04:01.027 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-24 10:04:01.028 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-24 10:04:01.028 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-24 10:04:01.029 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-24 10:04:01.029 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-24 10:04:01.030 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-24 10:04:01.030 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-24 10:04:01.030 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-24 10:04:01.031 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-24 10:04:01.031 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-24 10:04:01.032 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-24 10:04:01.032 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-24 10:04:01.032 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-24 10:04:01.033 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-24 10:04:01.033 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-24 10:04:01.033 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-24 10:04:01.034 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-24 10:04:01.034 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-24 10:04:01.035 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-24 10:04:01.035 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-24 10:04:01.035 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-24 10:04:01.036 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-24 10:04:01.036 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-24 10:04:01.036 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-24 10:04:01.037 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-24 10:04:01.037 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-24 10:04:01.039 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-24 10:04:01.039 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-24 10:04:01.040 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-24 10:04:01.040 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-24 10:04:01.040 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-24 10:04:01.041 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-24 10:04:01.041 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-24 10:04:01.042 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-24 10:04:01.044 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 10:04:01.046 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-24 10:04:01.047 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-24 10:04:01.048 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-24 10:04:01.048 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-24 10:04:01.051 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-24 10:04:01.051 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-24 10:04:01.052 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-24 10:04:01.053 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-24 10:04:01.054 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-24 10:04:01.090 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 3.867 seconds (JVM running for 4.489)
+2022-08-24 10:04:01.630 [RMI TCP Connection(2)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-24 10:04:01.631 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-24 10:04:01.633 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-08-24 10:04:01.653 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-24 10:04:02.121 [RMI TCP Connection(1)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-24 10:04:05.149 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.clients.producer.ProducerConfig - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [110.40.220.207:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	internal.auto.downgrade.txn.commit = true
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-08-24 10:04:05.185 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.2
+2022-08-24 10:04:05.186 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 37a1cc36bf4d76f3
+2022-08-24 10:04:05.186 [http-nio-8081-exec-2] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1661306645184
+2022-08-24 10:04:05.431 [kafka-producer-network-thread | producer-1] [INFO ] org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: N_qWYp0DR-CyFe0Vu-kqrw
+2022-08-24 10:04:09.556 [kafka-producer-network-thread | producer-1] [INFO ] c.test.springboot.controller.kafka.KafkaController - 成功发送消息：测试000，offset=[20]
+2022-08-24 10:10:28.923 [kafka-producer-network-thread | producer-1] [INFO ] c.test.springboot.controller.kafka.KafkaController - 成功发送消息：习惯，offset=[21]
+2022-08-24 10:10:33.780 [kafka-producer-network-thread | producer-1] [INFO ] c.test.springboot.controller.kafka.KafkaController - 成功发送消息：习惯4564564，offset=[22]
+2022-08-24 11:53:44.986 [lettuce-nioEventLoop-4-1] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 11:53:47.194 [lettuce-eventExecutorLoop-1-3] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 11:53:47.269 [lettuce-nioEventLoop-4-2] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 11:54:33.468 [lettuce-nioEventLoop-4-2] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 11:54:33.491 [lettuce-eventExecutorLoop-1-4] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 11:54:33.540 [lettuce-nioEventLoop-4-3] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 11:57:05.731 [lettuce-nioEventLoop-4-3] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 11:57:08.163 [lettuce-eventExecutorLoop-1-5] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 11:57:08.219 [lettuce-nioEventLoop-4-4] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 11:57:54.578 [lettuce-nioEventLoop-4-4] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 11:57:54.672 [lettuce-eventExecutorLoop-1-6] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 11:57:54.728 [lettuce-nioEventLoop-4-5] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:00:26.751 [lettuce-nioEventLoop-4-5] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:00:26.858 [lettuce-eventExecutorLoop-1-7] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:00:26.923 [lettuce-nioEventLoop-4-6] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:01:19.492 [lettuce-nioEventLoop-4-6] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:01:19.551 [lettuce-eventExecutorLoop-1-8] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:01:19.600 [lettuce-nioEventLoop-4-7] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:04:53.760 [lettuce-nioEventLoop-4-7] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:04:53.779 [lettuce-eventExecutorLoop-1-9] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:04:53.880 [lettuce-nioEventLoop-4-8] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:05:42.520 [lettuce-nioEventLoop-4-8] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:05:42.586 [lettuce-eventExecutorLoop-1-10] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:05:42.626 [lettuce-nioEventLoop-4-9] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:08:15.688 [lettuce-nioEventLoop-4-9] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:08:15.752 [lettuce-eventExecutorLoop-1-11] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:08:15.896 [lettuce-nioEventLoop-4-10] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:09:35.561 [lettuce-nioEventLoop-4-10] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:09:35.660 [lettuce-eventExecutorLoop-1-1] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:09:35.723 [lettuce-nioEventLoop-4-11] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:12:43.727 [lettuce-nioEventLoop-4-11] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:12:43.789 [lettuce-eventExecutorLoop-1-12] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:12:43.856 [lettuce-nioEventLoop-4-12] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:13:33.613 [lettuce-nioEventLoop-4-12] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:13:33.690 [lettuce-eventExecutorLoop-1-2] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:13:33.734 [lettuce-nioEventLoop-4-1] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:16:04.854 [lettuce-nioEventLoop-4-1] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:16:04.879 [lettuce-eventExecutorLoop-1-3] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:16:04.935 [lettuce-nioEventLoop-4-2] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:16:53.576 [lettuce-nioEventLoop-4-2] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:16:53.677 [lettuce-eventExecutorLoop-1-4] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:16:53.716 [lettuce-nioEventLoop-4-3] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:20:32.757 [lettuce-nioEventLoop-4-3] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:20:32.761 [lettuce-eventExecutorLoop-1-5] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:20:32.835 [lettuce-nioEventLoop-4-4] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:21:22.616 [lettuce-nioEventLoop-4-4] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:21:22.667 [lettuce-eventExecutorLoop-1-6] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:21:22.709 [lettuce-nioEventLoop-4-5] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:23:54.699 [lettuce-nioEventLoop-4-5] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:23:54.706 [lettuce-eventExecutorLoop-1-7] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:23:54.779 [lettuce-nioEventLoop-4-6] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
+2022-08-24 12:24:43.599 [lettuce-nioEventLoop-4-6] [INFO ] io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:378)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2022-08-24 12:24:43.607 [lettuce-eventExecutorLoop-1-8] [INFO ] io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /110.40.220.207:6379
+2022-08-24 12:24:43.647 [lettuce-nioEventLoop-4-7] [INFO ] io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 110.40.220.207:6379
