@@ -57,6 +57,11 @@ public class KafkaConsumerConfig {
         ConcurrentKafkaListenerContainerFactory<String, String> factory
                 = new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactory());
+
+        // ------- 过滤配置 --------
+        factory.setRecordFilterStrategy(
+                r -> r.value().contains("fuck")
+        );
         return factory;
     }
 }
