@@ -2158,3 +2158,548 @@ java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 2022-08-30 13:47:05.917 [RMI TCP Connection(3)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
 2022-08-30 13:47:06.354 [RMI TCP Connection(3)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
 2022-08-30 13:47:06.657 [RMI TCP Connection(3)-192.168.9.100] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:125}] to localhost:27017
+2022-08-30 15:15:17.157 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 3408 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-30 15:15:17.160 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-30 15:15:18.050 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-30 15:15:18.051 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-08-30 15:15:18.106 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 MongoDB repository interfaces.
+2022-08-30 15:15:18.114 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-30 15:15:18.115 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-30 15:15:18.128 [main] [INFO ] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.test.springboot.mapper.mongodb.MongoUserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2022-08-30 15:15:18.128 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-08-30 15:15:18.734 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-30 15:15:18.741 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-30 15:15:18.742 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-30 15:15:18.742 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-30 15:15:18.813 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-30 15:15:18.813 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1623 ms
+2022-08-30 15:15:19.483 [main] [INFO ] org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-30 15:15:19.520 [cluster-rtt-ClusterId{value='630db9079c248c67bfdb4496', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:129}] to localhost:27017
+2022-08-30 15:15:19.520 [cluster-ClusterId{value='630db9079c248c67bfdb4496', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:128}] to localhost:27017
+2022-08-30 15:15:19.520 [cluster-ClusterId{value='630db9079c248c67bfdb4496', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12545800}
+2022-08-30 15:15:20.513 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-30 15:15:20.595 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-30 15:15:21.244 [main] [INFO ] org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [110.40.220.207:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-consumer-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2022-08-30 15:15:21.290 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.2
+2022-08-30 15:15:21.291 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 37a1cc36bf4d76f3
+2022-08-30 15:15:21.291 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1661843721289
+2022-08-30 15:15:21.293 [main] [INFO ] org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Subscribed to topic(s): test
+2022-08-30 15:15:21.297 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-30 15:15:21.303 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-30 15:15:21.304 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-30 15:15:21.315 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-30 15:15:21.348 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:15:21.471 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-30 15:15:21.473 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-30 15:15:21.482 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:15:21.484 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-30 15:15:21.488 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:15:21.489 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-30 15:15:21.490 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-30 15:15:21.494 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:15:21.496 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-30 15:15:21.497 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-30 15:15:21.498 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-30 15:15:21.498 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-30 15:15:21.499 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-30 15:15:21.499 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-30 15:15:21.499 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-30 15:15:21.500 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-30 15:15:21.500 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-30 15:15:21.501 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-30 15:15:21.501 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-30 15:15:21.501 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-30 15:15:21.502 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-30 15:15:21.502 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-30 15:15:21.502 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-30 15:15:21.503 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-30 15:15:21.503 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-30 15:15:21.503 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-30 15:15:21.504 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-30 15:15:21.504 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-30 15:15:21.504 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-30 15:15:21.504 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-30 15:15:21.505 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-30 15:15:21.505 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-30 15:15:21.505 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-30 15:15:21.506 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-30 15:15:21.508 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-30 15:15:21.508 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-30 15:15:21.508 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-30 15:15:21.509 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-30 15:15:21.509 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-30 15:15:21.510 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-30 15:15:21.510 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-30 15:15:21.511 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-30 15:15:21.514 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:15:21.516 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-30 15:15:21.516 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-30 15:15:21.517 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-30 15:15:21.517 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-30 15:15:21.520 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:15:21.521 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-30 15:15:21.522 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-30 15:15:21.523 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-30 15:15:21.524 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-30 15:15:21.547 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.735 seconds (JVM running for 5.362)
+2022-08-30 15:15:21.551 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Cluster ID: N_qWYp0DR-CyFe0Vu-kqrw
+2022-08-30 15:15:21.552 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Discovered group coordinator 110.40.220.207:9092 (id: 2147483646 rack: null)
+2022-08-30 15:15:21.554 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] (Re-)joining group
+2022-08-30 15:15:21.639 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] (Re-)joining group
+2022-08-30 15:15:21.669 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Successfully joined group with generation Generation{generationId=117, memberId='consumer-test-consumer-1-8e11f972-b132-4cf3-95f3-6a1a2e5e39d1', protocol='range'}
+2022-08-30 15:15:21.671 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Finished assignment for group at generation 117: {consumer-test-consumer-1-8e11f972-b132-4cf3-95f3-6a1a2e5e39d1=Assignment(partitions=[test-0])}
+2022-08-30 15:15:21.704 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Successfully synced group in generation Generation{generationId=117, memberId='consumer-test-consumer-1-8e11f972-b132-4cf3-95f3-6a1a2e5e39d1', protocol='range'}
+2022-08-30 15:15:21.705 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Notifying assignor about the new Assignment(partitions=[test-0])
+2022-08-30 15:15:21.706 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Adding newly assigned partitions: test-0
+2022-08-30 15:15:21.769 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Setting offset for partition test-0 to the committed offset FetchPosition{offset=73, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[110.40.220.207:9092 (id: 1 rack: null)], epoch=0}}
+2022-08-30 15:15:21.770 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.s.kafka.listener.KafkaMessageListenerContainer - test-consumer: partitions assigned: [test-0]
+2022-08-30 15:15:22.191 [RMI TCP Connection(1)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-30 15:15:22.191 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-30 15:15:22.193 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-08-30 15:15:22.210 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-30 15:15:22.670 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-30 15:15:23.019 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:130}] to localhost:27017
+2022-08-30 15:17:22.231 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 32320 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-30 15:17:22.234 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-30 15:17:23.068 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-30 15:17:23.068 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-08-30 15:17:23.118 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 MongoDB repository interfaces.
+2022-08-30 15:17:23.125 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-30 15:17:23.127 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-30 15:17:23.140 [main] [INFO ] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.test.springboot.mapper.mongodb.MongoUserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2022-08-30 15:17:23.140 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2022-08-30 15:17:23.692 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-30 15:17:23.697 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-30 15:17:23.698 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-30 15:17:23.698 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-30 15:17:23.765 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-30 15:17:23.766 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1494 ms
+2022-08-30 15:17:24.415 [main] [INFO ] org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-30 15:17:24.450 [cluster-ClusterId{value='630db9841672ac04dc5b36f7', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:131}] to localhost:27017
+2022-08-30 15:17:24.450 [cluster-ClusterId{value='630db9841672ac04dc5b36f7', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12306099}
+2022-08-30 15:17:24.450 [cluster-rtt-ClusterId{value='630db9841672ac04dc5b36f7', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:132}] to localhost:27017
+2022-08-30 15:17:25.469 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-30 15:17:25.547 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-30 15:17:26.222 [main] [INFO ] org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [110.40.220.207:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-consumer-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2022-08-30 15:17:26.268 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.2
+2022-08-30 15:17:26.269 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 37a1cc36bf4d76f3
+2022-08-30 15:17:26.269 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1661843846267
+2022-08-30 15:17:26.270 [main] [INFO ] org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Subscribed to topic(s): test
+2022-08-30 15:17:26.274 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-30 15:17:26.281 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-30 15:17:26.282 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-30 15:17:26.294 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-30 15:17:26.330 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:17:26.458 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-30 15:17:26.460 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-30 15:17:26.470 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:17:26.471 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-30 15:17:26.475 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:17:26.477 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-30 15:17:26.479 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-30 15:17:26.482 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:17:26.484 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-30 15:17:26.485 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-30 15:17:26.486 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-30 15:17:26.486 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-30 15:17:26.486 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-30 15:17:26.487 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-30 15:17:26.487 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-30 15:17:26.487 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-30 15:17:26.488 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-30 15:17:26.488 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-30 15:17:26.489 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-30 15:17:26.489 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-30 15:17:26.489 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-30 15:17:26.490 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-30 15:17:26.490 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-30 15:17:26.490 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-30 15:17:26.491 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-30 15:17:26.491 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-30 15:17:26.492 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-30 15:17:26.492 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-30 15:17:26.492 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-30 15:17:26.493 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-30 15:17:26.493 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-30 15:17:26.493 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-30 15:17:26.494 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-30 15:17:26.494 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-30 15:17:26.496 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-30 15:17:26.497 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-30 15:17:26.497 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-30 15:17:26.498 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-30 15:17:26.498 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-30 15:17:26.498 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-30 15:17:26.499 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-30 15:17:26.499 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-30 15:17:26.502 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:17:26.504 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-30 15:17:26.505 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-30 15:17:26.505 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-30 15:17:26.506 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-30 15:17:26.509 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:17:26.511 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-30 15:17:26.513 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-30 15:17:26.513 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-30 15:17:26.514 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-30 15:17:26.531 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Cluster ID: N_qWYp0DR-CyFe0Vu-kqrw
+2022-08-30 15:17:26.533 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Discovered group coordinator 110.40.220.207:9092 (id: 2147483646 rack: null)
+2022-08-30 15:17:26.535 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] (Re-)joining group
+2022-08-30 15:17:26.536 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.634 seconds (JVM running for 5.42)
+2022-08-30 15:17:26.599 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] (Re-)joining group
+2022-08-30 15:17:26.883 [RMI TCP Connection(1)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-30 15:17:26.883 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-30 15:17:26.885 [RMI TCP Connection(1)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-08-30 15:17:26.902 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-30 15:17:27.259 [RMI TCP Connection(2)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-30 15:17:27.557 [RMI TCP Connection(2)-192.168.9.100] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:133}] to localhost:27017
+2022-08-30 15:17:29.033 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Successfully joined group with generation Generation{generationId=118, memberId='consumer-test-consumer-1-a8748fac-ebd6-4582-ba41-1ece2adae09a', protocol='range'}
+2022-08-30 15:17:29.035 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Finished assignment for group at generation 118: {consumer-test-consumer-1-a8748fac-ebd6-4582-ba41-1ece2adae09a=Assignment(partitions=[test-0])}
+2022-08-30 15:17:29.060 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Successfully synced group in generation Generation{generationId=118, memberId='consumer-test-consumer-1-a8748fac-ebd6-4582-ba41-1ece2adae09a', protocol='range'}
+2022-08-30 15:17:29.061 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Notifying assignor about the new Assignment(partitions=[test-0])
+2022-08-30 15:17:29.063 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Adding newly assigned partitions: test-0
+2022-08-30 15:17:29.113 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Setting offset for partition test-0 to the committed offset FetchPosition{offset=73, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[110.40.220.207:9092 (id: 1 rack: null)], epoch=0}}
+2022-08-30 15:17:29.114 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.s.kafka.listener.KafkaMessageListenerContainer - test-consumer: partitions assigned: [test-0]
+2022-08-30 15:21:56.400 [main] [INFO ] com.test.springboot.SpringbootApplication - Starting SpringbootApplication using Java 1.8.0_291 on gaofengkai with PID 12100 (D:\BackEnd\workspace\springboot\target\classes started by gaofengkai in D:\BackEnd\workspace\springboot)
+2022-08-30 15:21:56.403 [main] [INFO ] com.test.springboot.SpringbootApplication - The following profiles are active: prod
+2022-08-30 15:21:57.236 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-30 15:21:57.237 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-08-30 15:21:57.284 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 1 MongoDB repository interfaces.
+2022-08-30 15:21:57.291 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-08-30 15:21:57.291 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-08-30 15:21:57.303 [main] [INFO ] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.test.springboot.mapper.mongodb.MongoUserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2022-08-30 15:21:57.304 [main] [INFO ] o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-08-30 15:21:57.872 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2022-08-30 15:21:57.878 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-30 15:21:57.878 [main] [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-30 15:21:57.879 [main] [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-08-30 15:21:57.947 [main] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-30 15:21:57.948 [main] [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1513 ms
+2022-08-30 15:21:58.679 [main] [INFO ] org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2022-08-30 15:21:58.719 [cluster-rtt-ClusterId{value='630dba96cee6a0713c0b824b', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:134}] to localhost:27017
+2022-08-30 15:21:58.719 [cluster-ClusterId{value='630dba96cee6a0713c0b824b', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:135}] to localhost:27017
+2022-08-30 15:21:58.720 [cluster-ClusterId{value='630dba96cee6a0713c0b824b', description='null'}-localhost:27017] [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13901201}
+2022-08-30 15:21:59.782 [main] [INFO ] o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 16 endpoint(s) beneath base path '/monitor'
+2022-08-30 15:21:59.856 [main] [INFO ] s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-30 15:22:00.519 [main] [INFO ] org.apache.kafka.clients.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [110.40.220.207:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-test-consumer-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = test-consumer
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 127000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2022-08-30 15:22:00.564 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka version: 2.7.2
+2022-08-30 15:22:00.564 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka commitId: 37a1cc36bf4d76f3
+2022-08-30 15:22:00.564 [main] [INFO ] org.apache.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1661844120563
+2022-08-30 15:22:00.566 [main] [INFO ] org.apache.kafka.clients.consumer.KafkaConsumer - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Subscribed to topic(s): test
+2022-08-30 15:22:00.570 [main] [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2022-08-30 15:22:00.577 [main] [INFO ] o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-30 15:22:00.578 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-08-30 15:22:00.590 [main] [INFO ] s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 6 custom documentation plugin(s)
+2022-08-30 15:22:00.622 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:22:00.751 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testUsingGET_1
+2022-08-30 15:22:00.754 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: test2UsingGET_1
+2022-08-30 15:22:00.754 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingGET_1
+2022-08-30 15:22:00.755 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingHEAD_1
+2022-08-30 15:22:00.755 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPOST_1
+2022-08-30 15:22:00.755 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPUT_1
+2022-08-30 15:22:00.756 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingPATCH_1
+2022-08-30 15:22:00.756 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingDELETE_1
+2022-08-30 15:22:00.756 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingOPTIONS_1
+2022-08-30 15:22:00.757 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: indexUsingTRACE_1
+2022-08-30 15:22:00.767 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:22:00.768 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: testAopUsingGET_1
+2022-08-30 15:22:00.772 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:22:00.774 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getCityUsingPOST_1
+2022-08-30 15:22:00.776 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getFirstStudentUsingPOST_1
+2022-08-30 15:22:00.779 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:22:00.781 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonUsingPOST_1
+2022-08-30 15:22:00.783 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingGET_1
+2022-08-30 15:22:00.783 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingHEAD_1
+2022-08-30 15:22:00.784 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPOST_1
+2022-08-30 15:22:00.784 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPUT_1
+2022-08-30 15:22:00.784 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingPATCH_1
+2022-08-30 15:22:00.784 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingDELETE_1
+2022-08-30 15:22:00.785 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingOPTIONS_1
+2022-08-30 15:22:00.785 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getJsonViewUsingTRACE_1
+2022-08-30 15:22:00.786 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingGET_1
+2022-08-30 15:22:00.786 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingHEAD_1
+2022-08-30 15:22:00.786 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPOST_1
+2022-08-30 15:22:00.787 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPUT_1
+2022-08-30 15:22:00.787 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingPATCH_1
+2022-08-30 15:22:00.787 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingDELETE_1
+2022-08-30 15:22:00.788 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingOPTIONS_1
+2022-08-30 15:22:00.788 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonAsObjectUsingTRACE_1
+2022-08-30 15:22:00.788 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingGET_1
+2022-08-30 15:22:00.789 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingHEAD_1
+2022-08-30 15:22:00.789 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPOST_1
+2022-08-30 15:22:00.789 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPUT_1
+2022-08-30 15:22:00.790 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingPATCH_1
+2022-08-30 15:22:00.790 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingDELETE_1
+2022-08-30 15:22:00.790 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingOPTIONS_1
+2022-08-30 15:22:00.790 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: readJsonStringUsingTRACE_1
+2022-08-30 15:22:00.791 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: serializationUsingPOST_1
+2022-08-30 15:22:00.793 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingGET_1
+2022-08-30 15:22:00.793 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingHEAD_1
+2022-08-30 15:22:00.793 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPOST_1
+2022-08-30 15:22:00.794 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPUT_1
+2022-08-30 15:22:00.794 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingPATCH_1
+2022-08-30 15:22:00.795 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingDELETE_1
+2022-08-30 15:22:00.796 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingOPTIONS_1
+2022-08-30 15:22:00.797 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateJsonUsingTRACE_1
+2022-08-30 15:22:00.800 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:22:00.802 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addRedisUsingPOST_1
+2022-08-30 15:22:00.803 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteRedisUsingPOST_1
+2022-08-30 15:22:00.803 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getRedisUsingPOST_1
+2022-08-30 15:22:00.804 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateRedisUsingPOST_1
+2022-08-30 15:22:00.807 [main] [INFO ] s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-08-30 15:22:00.808 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addJdbcStudentUsingPOST_1
+2022-08-30 15:22:00.809 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentByIdUsingGET_1
+2022-08-30 15:22:00.809 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById2UsingPOST_1
+2022-08-30 15:22:00.810 [main] [INFO ] s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: queryStudentById3UsingPOST_1
+2022-08-30 15:22:00.834 [main] [INFO ] com.test.springboot.SpringbootApplication - Started SpringbootApplication in 4.795 seconds (JVM running for 5.46)
+2022-08-30 15:22:00.844 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Cluster ID: N_qWYp0DR-CyFe0Vu-kqrw
+2022-08-30 15:22:00.845 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Discovered group coordinator 110.40.220.207:9092 (id: 2147483646 rack: null)
+2022-08-30 15:22:00.848 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] (Re-)joining group
+2022-08-30 15:22:00.910 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] (Re-)joining group
+2022-08-30 15:22:01.414 [RMI TCP Connection(6)-192.168.9.100] [INFO ] o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-30 15:22:01.414 [RMI TCP Connection(6)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-30 15:22:01.417 [RMI TCP Connection(6)-192.168.9.100] [INFO ] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-08-30 15:22:01.436 [RMI TCP Connection(5)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1,mybatis} inited
+2022-08-30 15:22:01.908 [RMI TCP Connection(5)-192.168.9.100] [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-2,springbootdb} inited
+2022-08-30 15:22:02.230 [RMI TCP Connection(5)-192.168.9.100] [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:136}] to localhost:27017
+2022-08-30 15:22:03.771 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Successfully joined group with generation Generation{generationId=119, memberId='consumer-test-consumer-1-aef39ff3-7986-4b87-845b-40a03ed0d22c', protocol='range'}
+2022-08-30 15:22:03.773 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Finished assignment for group at generation 119: {consumer-test-consumer-1-aef39ff3-7986-4b87-845b-40a03ed0d22c=Assignment(partitions=[test-0])}
+2022-08-30 15:22:03.800 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.AbstractCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Successfully synced group in generation Generation{generationId=119, memberId='consumer-test-consumer-1-aef39ff3-7986-4b87-845b-40a03ed0d22c', protocol='range'}
+2022-08-30 15:22:03.801 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Notifying assignor about the new Assignment(partitions=[test-0])
+2022-08-30 15:22:03.802 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Adding newly assigned partitions: test-0
+2022-08-30 15:22:03.851 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.a.k.c.consumer.internals.ConsumerCoordinator - [Consumer clientId=consumer-test-consumer-1, groupId=test-consumer] Setting offset for partition test-0 to the committed offset FetchPosition{offset=73, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[110.40.220.207:9092 (id: 1 rack: null)], epoch=0}}
+2022-08-30 15:22:03.851 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] [INFO ] o.s.kafka.listener.KafkaMessageListenerContainer - test-consumer: partitions assigned: [test-0]
